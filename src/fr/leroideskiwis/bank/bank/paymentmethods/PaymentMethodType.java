@@ -1,4 +1,4 @@
-package fr.leroideskiwis.compiler.bank.paymentmethods;
+package fr.leroideskiwis.bank.bank.paymentmethods;
 
 import java.util.Optional;
 

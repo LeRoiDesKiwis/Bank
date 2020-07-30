@@ -1,8 +1,8 @@
-package fr.leroideskiwis.compiler.bank;
+package fr.leroideskiwis.bank.bank;
 
-import fr.leroideskiwis.compiler.bank.paymentmethods.*;
-import fr.leroideskiwis.compiler.utils.CustomScanner;
-import fr.leroideskiwis.compiler.utils.Utils;
+import fr.leroideskiwis.bank.bank.paymentmethods.*;
+import fr.leroideskiwis.bank.utils.CustomScanner;
+import fr.leroideskiwis.bank.utils.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,8 +22,6 @@ public class Bank {
     public void createAccount(String name){
         String iban = "FR"+Utils.generateRandomString(23, 49, 57);
         BankAccount account = new BankAccount(name, iban, id);
-        CustomScanner scanner = new CustomScanner();
-
         account.linkMastercard(createMasterCard());
         bankAccounts.add(account);
     }

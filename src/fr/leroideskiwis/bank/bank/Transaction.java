@@ -1,7 +1,7 @@
-package fr.leroideskiwis.compiler.bank;
+package fr.leroideskiwis.bank.bank;
 
-import fr.leroideskiwis.compiler.bank.exceptions.TransactionException;
-import fr.leroideskiwis.compiler.bank.paymentmethods.PaymentMethod;
+import fr.leroideskiwis.bank.bank.exceptions.TransactionException;
+import fr.leroideskiwis.bank.bank.paymentmethods.PaymentMethod;
 
 public class Transaction {
 
@@ -13,9 +13,6 @@ public class Transaction {
         this.sender = t;
         this.collector = r;
         this.amount = amount;
-    }
-
-    public void changePayementMethods(PaymentMethod sender, PaymentMethod collector){
     }
 
     public boolean isValid(){

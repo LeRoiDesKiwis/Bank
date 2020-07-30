@@ -1,8 +1,4 @@
-package fr.leroideskiwis.compiler.bank.exceptions;
-
-import fr.leroideskiwis.compiler.bank.Transaction;
-
-import java.util.function.Supplier;
+package fr.leroideskiwis.bank.bank.exceptions;
 
 public class TransactionException extends Exception {
 

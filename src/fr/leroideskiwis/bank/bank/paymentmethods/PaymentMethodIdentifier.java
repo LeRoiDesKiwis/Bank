@@ -1,6 +1,4 @@
-package fr.leroideskiwis.compiler.bank.paymentmethods;
-
-import java.util.Objects;
+package fr.leroideskiwis.bank.bank.paymentmethods;
 
 public class PaymentMethodIdentifier {
 

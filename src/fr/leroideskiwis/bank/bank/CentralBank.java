@@ -1,9 +1,9 @@
-package fr.leroideskiwis.compiler.bank;
+package fr.leroideskiwis.bank.bank;
 
-import fr.leroideskiwis.compiler.bank.exceptions.TransactionException;
-import fr.leroideskiwis.compiler.bank.paymentmethods.PaymentMethod;
-import fr.leroideskiwis.compiler.bank.paymentmethods.PaymentMethodIdentifier;
-import fr.leroideskiwis.compiler.bank.paymentmethods.PaymentMethodType;
+import fr.leroideskiwis.bank.bank.exceptions.TransactionException;
+import fr.leroideskiwis.bank.bank.paymentmethods.PaymentMethod;
+import fr.leroideskiwis.bank.bank.paymentmethods.PaymentMethodIdentifier;
+import fr.leroideskiwis.bank.bank.paymentmethods.PaymentMethodType;
 
 import java.util.ArrayList;
 import java.util.List;

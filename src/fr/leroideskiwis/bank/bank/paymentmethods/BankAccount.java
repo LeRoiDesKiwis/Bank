@@ -1,6 +1,6 @@
-package fr.leroideskiwis.compiler.bank.paymentmethods;
+package fr.leroideskiwis.bank.bank.paymentmethods;
 
-import fr.leroideskiwis.compiler.bank.Transaction;
+import fr.leroideskiwis.bank.bank.Transaction;
 
 public class BankAccount implements PaymentMethod {
 

@@ -1,7 +1,7 @@
-package fr.leroideskiwis.compiler.bank.paymentmethods;
+package fr.leroideskiwis.bank.bank.paymentmethods;
 
-import fr.leroideskiwis.compiler.bank.Transaction;
-import fr.leroideskiwis.compiler.utils.CustomScanner;
+import fr.leroideskiwis.bank.bank.Transaction;
+import fr.leroideskiwis.bank.utils.CustomScanner;
 
 public class MasterCard implements PaymentMethod {
 

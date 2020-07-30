@@ -1,9 +1,9 @@
-package fr.leroideskiwis.compiler;
+package fr.leroideskiwis.bank;
 
-import fr.leroideskiwis.compiler.bank.CentralBank;
-import fr.leroideskiwis.compiler.bank.exceptions.TransactionException;
-import fr.leroideskiwis.compiler.utils.CustomScanner;
-import fr.leroideskiwis.compiler.utils.Utils;
+import fr.leroideskiwis.bank.bank.CentralBank;
+import fr.leroideskiwis.bank.bank.exceptions.TransactionException;
+import fr.leroideskiwis.bank.utils.CustomScanner;
+import fr.leroideskiwis.bank.utils.Utils;
 
 public class Main {
 
